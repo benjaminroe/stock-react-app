@@ -15,12 +15,25 @@ import { formatJSONtoCSV, parseUploadedData } from "./utils";
 
 import { CSVReader } from 'react-papaparse';
 
-// TODO: Define css styles
 // TODO: Add own logo -> favicon.ico
 // TODO: Update manifest
 const options = [
+  { value: 'BABA', label: 'Alibaba Group Holding' },
+  { value: 'AON', label: 'AON Plc' },
+  { value: 'AIF', label: 'Apollo Tactical Income Fund Inc' },
   { value: 'AAPL', label: 'Apple' },
-  { value: 'TSLA', label: 'Tesla' }
+  { value: 'ACB', label: 'Aurora Cannabis Inc' },
+  { value: 'BA', label: 'Boeing Company' },
+  { value: 'F', label: 'Ford Motor Company' },
+  { value: 'FDX', label: 'Fedex Corp' },
+  { value: 'GSK', label: 'Glaxosmithkline Plc' },
+  { value: 'GM', label: 'General Motors Company' },
+  { value: 'TSLA', label: 'Tesla' },
+  { value: 'UPS', label: 'United Parcel Service' },
+  { value: 'WFC', label: 'Wells Fargo & Company' },
+  { value: 'XOM', label: 'Exxon Mobil Corp' },
+  { value: 'YELP', label: 'Yelp Inc' },
+  { value: 'ZEN', label: 'Zendesk Inc' }
 ];
 
 const buttonRef = React.createRef();
