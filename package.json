@@ -1,0 +1,33 @@
+{
+  "name": "stock-react-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "d3": "^5.16.0",
+    "d3-dsv": "^1.2.0",
+    "d3-format": "^1.4.4",
+    "d3-scale": "^3.2.1",
+    "d3-time-format": "^2.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-json-to-csv": "^1.0.4",
+    "react-papaparse": "^3.3.0",
+    "react-scripts": "2.1.1",
+    "react-select": "^3.1.0",
+    "react-stockcharts": "^0.7.8",
+    "shortid": "^2.2.15"
+  },
+  "scripts": {
+    "dev": "BROWSER=none react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
