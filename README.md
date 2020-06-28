@@ -8,7 +8,7 @@ This tool allows you to select a stock from the US or AU Market (more to be grad
 
 Check it out below 👇
 
-_Live Example: https://stock-react-app.benjaminroe.vercel.app/_
+_Live Example: https://stock-react-app.vercel.app/_
 
 ### Contributions
 
