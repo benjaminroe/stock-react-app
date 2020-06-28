@@ -10,6 +10,7 @@ import { ChartComponent } from './components/ChartComponent';
 import { ExplanationComponent } from './components/ExplanationComponent';
 import { ResultsComponent } from './components/ResultsComponent';
 import Select from 'react-select';
+import SelectSearch from 'react-select-search';
 
 import { formatJSONtoCSV, parseUploadedData } from "./utils";
 
